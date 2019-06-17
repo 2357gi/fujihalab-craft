@@ -4,8 +4,9 @@
 # :rabbit: Usage
 
 ```shell
-docker run -it -p 25565:25565 2357gi/fujihalab-craft
+docker run -it -v `pwd`:/opt/app/ -p 25565:25565 2357gi/fujihalab-craft
 ```
+# TODO
+- [ ] compose書く
 
-ただボリュームのバインドとか何もやってないのでとりあえず動くだけ
 
