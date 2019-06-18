@@ -11,4 +11,8 @@ services:
 
 volumes:
   data:
-    driver: local
+# if you has local-persist docker plugin,
+# del # and baind host dir
+#     driver: local-persist
+#     driver_opts:
+#       mountpoint: ./server_data
