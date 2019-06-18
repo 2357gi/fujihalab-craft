@@ -4,9 +4,9 @@
 # :rabbit: Usage
 
 ```shell
-docker run -it -v `pwd`:/opt/app/ -p 25565:25565 2357gi/fujihalab-craft
+docker-compose up
 ```
 # TODO
-- [ ] compose書く
+- [x] compose書く
 
 

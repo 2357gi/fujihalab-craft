@@ -2,7 +2,13 @@ version: '3.7'
 services:
   game:
     image: 2357gi/fujihalab-craft
-    volumes:
-      - .:/opt/app
     ports:
       - "25565:25565"
+    expose:
+      - 25565
+    volumes:
+      - data:/opt/app
+
+volumes:
+  data:
+    driver: local
